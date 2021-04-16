@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public interface CalculatorWithMemory {
 
-    ArrayList historyAdd (double a, double b);
+    ArrayList historyAdd (String d, double a, double b);
 
-    ArrayList historyAdd(double e);
+    ArrayList historyAdd (String f, double e);
 
 
 }

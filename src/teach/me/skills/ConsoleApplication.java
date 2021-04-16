@@ -72,46 +72,46 @@ public class ConsoleApplication {
                         b = getNumber("Enter number 2");
                         double sum = calculator.sum(a, b);
                         consoleWriter.writeString("Result " + sum);
-                    calculatorV2.historyAdd(a,b);
-                    calculatorV2.historyAdd(sum);
+                    calculatorV2.historyAdd("Operation sum", a,b);
+                    calculatorV2.historyAdd("Result: ",sum);
                         break;
                     case 2:
                         a = getNumber("Enter number 1");
                         b = getNumber("Enter number 2");
                         double minus = calculator.minus(a, b);
                         consoleWriter.writeString("Result " + minus);
-                    calculatorV2.historyAdd(a,b);
-                    calculatorV2.historyAdd(minus);
+                    calculatorV2.historyAdd("Operation minus",a,b);
+                    calculatorV2.historyAdd("Result: ", minus);
                         break;
                     case 3:
                         a = getNumber("Enter number 1");
                         b = getNumber("Enter number 2");
                         double multi = calculator.multi(a, b);
                         consoleWriter.writeString("Result " + multi);
-                    calculatorV2.historyAdd(a,b);
-                    calculatorV2.historyAdd(multi);
+                    calculatorV2.historyAdd("Operation multi",a,b);
+                    calculatorV2.historyAdd("Result: ",multi);
                         break;
                     case 4:
                         a = getNumber("Enter number 1");
                         b = getNumber("Enter number 2");
                         double delenie = calculator.delenie(a, b);
                         consoleWriter.writeString("Result " + delenie);
-                    calculatorV2.historyAdd(a,b);
-                    calculatorV2.historyAdd(delenie);
+                    calculatorV2.historyAdd("Operation delenie",a,b);
+                    calculatorV2.historyAdd("Result: ", delenie);
                         break;
                     case 5:
                         a = getNumber("Enter number");
                         double cos = calculator.cos(a);
                         consoleWriter.writeString("Result " + cos);
-                    calculatorV2.historyAdd(a);
-                    calculatorV2.historyAdd(cos);
+                    calculatorV2.historyAdd("Operation cos", a);
+                    calculatorV2.historyAdd("Result: ",cos);
                         break;
                     case 6:
                         a = getNumber("Enter number");
                         double sin = calculator.sin(a);
                         consoleWriter.writeString("Result " + sin);
-                    calculatorV2.historyAdd(a);
-                    calculatorV2.historyAdd(sin);
+                    calculatorV2.historyAdd("Operation sin", a);
+                    calculatorV2.historyAdd("Result: ", sin);
                         break;
                 case 7:
                     consoleWriter.writeString("Choose operation: " + "\n" + "1 - read history" + "\n" + "2 - clear history");
