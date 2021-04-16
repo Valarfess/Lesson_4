@@ -119,7 +119,7 @@ public class ConsoleApplication {
                         case 0:
                             return;
                         case 1:
-                            consoleWriter.writeString("History log loaded");
+                            consoleWriter.writeString("History log loaded" + "\n");
                             for (int i = 0; i < calculatorV2.history.size(); i++) {
                                 System.out.println(calculatorV2.history.get(i));
                             }
@@ -142,7 +142,7 @@ public class ConsoleApplication {
     }
 
     private void menu() {
-        consoleWriter.writeString("Welcome to console Calculator");
+        consoleWriter.writeString("\n" + "Welcome to console Calculator" + "\n");
     }
 }
 
