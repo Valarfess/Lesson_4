@@ -15,12 +15,12 @@ public class ConsoleApplication {
     public void run() {
         menu();
 
-        consoleWriter.writeString("Choose operation: " + "\n" + "1 - Calculator V1" + "\n" + "2 - Calculator V2 (with memory)");
+        consoleWriter.writeString("\n" + "Choose version of Calculator: " + "\n" + "1 - Calculator V1" + "\n" + "2 - Calculator V2 (with memory)");
         int c = consoleReader.readInt();
         if (c == 1) {
             while (true) {
-                consoleWriter.writeString("Choose operation: " + "\n" + "1 - sum" + "\n" + "2 - minus" + "\n" + "3 - multi" + "\n" +
-                        "4 - delenie" + "\n" + "5 - cos" + "\n" + "6 - sin" + "\n" + "7 - history" + "\n" + "0 - Exit");
+                consoleWriter.writeString("\n" + "Choose operation: " + "\n" + "1 - sum" + "\n" + "2 - minus" + "\n" + "3 - multi" + "\n" +
+                        "4 - delenie" + "\n" + "5 - cos" + "\n" + "6 - sin" + "\n" + "0 - Exit");
                 switch (consoleReader.readInt()) {
                     case 0:
                         return;
@@ -62,7 +62,7 @@ public class ConsoleApplication {
             }
         } else if (c == 2) {
             while (true) {
-                consoleWriter.writeString("Choose operation: " + "\n" + "1 - sum" + "\n" + "2 - minus" + "\n" + "3 - multi" + "\n" +
+                consoleWriter.writeString("\n" + "Choose operation: " + "\n" + "1 - sum" + "\n" + "2 - minus" + "\n" + "3 - multi" + "\n" +
                         "4 - delenie" + "\n" + "5 - cos" + "\n" + "6 - sin" + "\n" + "7 - history" + "\n" + "0 - Exit");
                 switch (consoleReader.readInt()) {
                     case 0:

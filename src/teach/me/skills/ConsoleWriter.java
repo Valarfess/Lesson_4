@@ -6,6 +6,6 @@ public class ConsoleWriter {
     }
 
     public void writeString(String message){
-        System.out.println("system> " + message);
+        System.out.println("\n" + "system> " + message);
     }
 }

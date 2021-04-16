@@ -2,7 +2,7 @@ package teach.me.skills;
 
 import java.util.ArrayList;
 
-public class CalculatorV2 extends CalculatorV1 implements CalculatorWithMemory{
+public class CalculatorV2 extends CalculatorV1 implements CalculatorWithMemory {
 
     ArrayList history = new ArrayList();
 
