@@ -142,7 +142,7 @@ public class ConsoleApplication {
     }
 
     private void menu() {
-        consoleWriter.writeString("Welcome");
+        consoleWriter.writeString("Welcome to console Calculator");
     }
 }
 
