@@ -122,11 +122,11 @@ public class ConsoleApplication {
                             for (int i = 0; i < calculatorV2.history.size(); i++) {
                                 System.out.println(calculatorV2.history.get(i));
                             }
-                            consoleWriter.writeString("Done");
+                            consoleWriter.writeString("History log loaded");
                             break;
                         case 2:
                             calculatorV2.history.clear();
-                            consoleWriter.writeString("Done");
+                            consoleWriter.writeString("History log deleted");
                             break;
                     }
                     break;
